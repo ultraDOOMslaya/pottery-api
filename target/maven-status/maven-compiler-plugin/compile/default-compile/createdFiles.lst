@@ -1,0 +1,8 @@
+com/maakesbe/services/config/CORSFilter.class
+com/maakesbe/services/models/Event.class
+com/maakesbe/services/repositories/PotteryRepository.class
+com/maakesbe/services/models/Pottery.class
+com/maakesbe/services/repositories/EventRepository.class
+com/maakesbe/services/controllers/EventsController.class
+com/maakesbe/services/Application.class
+com/maakesbe/services/controllers/PotteryController.class
