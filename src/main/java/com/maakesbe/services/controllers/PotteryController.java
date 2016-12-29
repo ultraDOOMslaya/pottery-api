@@ -23,6 +23,7 @@ public class PotteryController {
 
     @PostMapping("/pottery")
     public Pottery createPottery(@RequestBody Pottery pottery) {
+        System.out.println("Is this endpoint ever hit?");
         return repo.save(pottery);
     }
 

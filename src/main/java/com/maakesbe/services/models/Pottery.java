@@ -17,6 +17,18 @@ public class Pottery {
     @Column(name = "pottery_type")
     private String potteryType;
 
+    @Column(name = "pottery_file_name")
+    private String potteryFileName;
+
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
     public String getPotteryDescription() {
         return potteryDescription;
     }
@@ -31,5 +43,13 @@ public class Pottery {
 
     public void setPotteryType(String potteryType) {
         this.potteryType = potteryType;
+    }
+
+    public String getPotteryFileName() {
+        return potteryFileName;
+    }
+
+    public void setPotteryFileName(String potteryFileName) {
+        this.potteryFileName = potteryFileName;
     }
 }
