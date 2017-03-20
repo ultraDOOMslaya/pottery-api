@@ -3,6 +3,9 @@ package com.maakesbe.authentication.security.auth.jwt;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import com.maakesbe.query.controllers.EventsController;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.core.Authentication;
@@ -31,6 +34,7 @@ import io.jsonwebtoken.Jws;
 @Component
 @SuppressWarnings("unchecked")
 public class JwtAuthenticationProvider implements AuthenticationProvider {
+
 
     @Autowired
     JwtSettings jwtSettings;

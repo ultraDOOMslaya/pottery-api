@@ -17,6 +17,7 @@
 /home/daugherty/Code/maak-pottery/src/main/java/com/maakesbe/authentication/security/auth/ajax/AjaxAuthenticationProvider.java
 /home/daugherty/Code/maak-pottery/src/main/java/com/maakesbe/authentication/endpoint/ProfileEndpoint.java
 /home/daugherty/Code/maak-pottery/src/main/java/com/maakesbe/authentication/security/auth/jwt/extractor/JwtHeaderTokenExtractor.java
+/home/daugherty/Code/maak-pottery/src/main/java/com/maakesbe/config/CORSFilter.java
 /home/daugherty/Code/maak-pottery/src/main/java/com/maakesbe/query/controllers/EventsController.java
 /home/daugherty/Code/maak-pottery/src/main/java/com/maakesbe/authentication/security/config/WebSecurityConfig.java
 /home/daugherty/Code/maak-pottery/src/main/java/com/maakesbe/authentication/security/model/token/JwtTokenFactory.java
@@ -37,7 +38,6 @@
 /home/daugherty/Code/maak-pottery/src/main/java/com/maakesbe/authentication/security/auth/jwt/extractor/TokenExtractor.java
 /home/daugherty/Code/maak-pottery/src/main/java/com/maakesbe/authentication/security/config/PasswordEncoderConfig.java
 /home/daugherty/Code/maak-pottery/src/main/java/com/maakesbe/authentication/security/auth/jwt/verifier/TokenVerifier.java
-/home/daugherty/Code/maak-pottery/src/main/java/com/maakesbe/query/config/CORSFilter.java
 /home/daugherty/Code/maak-pottery/src/main/java/com/maakesbe/authentication/security/model/token/JwtToken.java
 /home/daugherty/Code/maak-pottery/src/main/java/com/maakesbe/authentication/entity/Role.java
 /home/daugherty/Code/maak-pottery/src/main/java/com/maakesbe/authentication/entity/User.java

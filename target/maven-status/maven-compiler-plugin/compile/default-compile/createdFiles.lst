@@ -1,7 +1,6 @@
 com/maakesbe/authentication/security/auth/jwt/verifier/BloomFilterTokenVerifier.class
 com/maakesbe/authentication/common/ErrorCode.class
 com/maakesbe/authentication/security/exceptions/JwtExpiredTokenException.class
-com/maakesbe/query/config/CORSFilter.class
 com/maakesbe/query/models/Pottery.class
 com/maakesbe/authentication/common/ErrorResponse.class
 com/maakesbe/authentication/security/auth/ajax/AjaxAwareAuthenticationFailureHandler.class
@@ -12,6 +11,7 @@ com/maakesbe/authentication/user/repository/UserRepository.class
 com/maakesbe/authentication/user/service/DatabaseUserService.class
 com/maakesbe/authentication/security/endpoint/RefreshTokenEndpoint.class
 com/maakesbe/authentication/security/model/UserContext.class
+com/maakesbe/config/CORSFilter.class
 com/maakesbe/authentication/security/model/token/RefreshToken.class
 com/maakesbe/authentication/security/model/Scopes.class
 com/maakesbe/authentication/security/auth/jwt/verifier/TokenVerifier.class

@@ -1,4 +1,4 @@
-package com.maakesbe.query.config;
+package com.maakesbe.config;
 
 import javax.servlet.http.HttpServletResponse;
 
@@ -28,7 +28,7 @@ public class CORSFilter implements Filter {
         response.setHeader("Access-Control-Allow-Origin", "*");
         response.setHeader("Access-Control-Allow-Methods", "POST, PUT, GET, PATCH, OPTIONS, DELETE");
         response.setHeader("Access-Control-Max-Age", "3600");
-        response.setHeader("Access-Control-Allow-Headers", "X-Requested-With, Content-Type, Origin, Authorization, Accept, Client-Security-Token, Accept-Encoding");
+        response.setHeader("Access-Control-Allow-Headers", "X-Requested-With, Content-Type, Origin, X-Authorization, Authorization, Accept, Client-Security-Token, Accept-Encoding");
         response.setHeader("Access-Control-Allow-Credentials", "true");
 
         if(!"OPTIONS".equalsIgnoreCase(request.getMethod())) {
