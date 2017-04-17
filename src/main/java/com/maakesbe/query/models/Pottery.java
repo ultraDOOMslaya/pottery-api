@@ -14,12 +14,12 @@ public class Pottery {
     @Column(name = "pottery_description")
     private String potteryDescription;
 
-    @Column(name = "pottery_type")
-    private String potteryType;
+    @OneToOne(cascade = CascadeType.MERGE)
+    @JoinColumn(name = "pottery_type_id")
+    private PotteryType potteryType;
 
     @Column(name = "pottery_file_name")
     private String potteryFileName;
-
 
     public long getId() {
         return id;
@@ -37,11 +37,11 @@ public class Pottery {
         this.potteryDescription = potteryDescription;
     }
 
-    public String getPotteryType() {
+    public PotteryType getPotteryType() {
         return potteryType;
     }
 
-    public void setPotteryType(String potteryType) {
+    public void setPotteryType(PotteryType potteryType) {
         this.potteryType = potteryType;
     }
 
